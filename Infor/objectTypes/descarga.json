@@ -1,0 +1,62 @@
+{
+	"name": "descarga",
+	"plugin-id": "Sprite",
+	"sid": 115592695674706,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 383354824688988
+		},
+		{
+			"behaviorId": "shadowcaster",
+			"name": "ProyectorDeSombras",
+			"sid": 461420821959891
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 196,
+						"height": 261,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 1083526,
+						"collisionPoly": {
+							"points": [
+								0.00510204081632653,
+								0.0038314176245210726,
+								0.9948979591836735,
+								0.0038314176245210726,
+								0.9948979591836735,
+								0.9961685823754789,
+								0.00510204081632653,
+								0.9961685823754789
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 863585913099349,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
