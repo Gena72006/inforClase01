@@ -1,0 +1,522 @@
+{
+	"name": "Hoja de eventos 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "botoncomenzarmanzanas",
+					"sid": 784720179693185
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Texto7",
+					"sid": 451817434447440,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "botoncomenzarmanzanas",
+					"sid": 619406719232564,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Manzana",
+					"sid": 446367081937423,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 118429982447458
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "ControlTáctil",
+					"sid": 817784547082802,
+					"parameters": {
+						"object": "Manzana",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Manzana",
+					"sid": 809527802955387
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Manzana2",
+					"sid": 390099825017851,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 141157490168380
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "ControlTáctil",
+					"sid": 445331273789780,
+					"parameters": {
+						"object": "Manzana2",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Manzana2",
+					"sid": 221772545110830
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Manzana3",
+					"sid": 157345532355828,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 272599090006583
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "ControlTáctil",
+					"sid": 532300548420811,
+					"parameters": {
+						"object": "Manzana3",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Manzana3",
+					"sid": 367690684413104
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Manzana4",
+					"sid": 507863977019973,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 892289514986572
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "ControlTáctil",
+					"sid": 222558099921036,
+					"parameters": {
+						"object": "Manzana4",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Manzana4",
+					"sid": 379913508045995
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Manzana5",
+					"sid": 298822143669163,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 289488474020514
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "ControlTáctil",
+					"sid": 129637781710051,
+					"parameters": {
+						"object": "Manzana5",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Manzana5",
+					"sid": 300762505290904
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Manzana6",
+					"sid": 476700456161483,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 888099582490346
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "ControlTáctil",
+					"sid": 957355788992547,
+					"parameters": {
+						"object": "Manzana6",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Manzana6",
+					"sid": 850306856708793
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Manzana7",
+					"sid": 661791233762707,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 855537249838997
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "ControlTáctil",
+					"sid": 972965375631353,
+					"parameters": {
+						"object": "Manzana7",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Manzana7",
+					"sid": 895700066678397
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Manzana8",
+					"sid": 425944724520557,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 270839170200563
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "ControlTáctil",
+					"sid": 113838776078891,
+					"parameters": {
+						"object": "Manzana8",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Manzana8",
+					"sid": 720832282088792
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Manzana9",
+					"sid": 754274580666331,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 753656567374032
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "ControlTáctil",
+					"sid": 734996652826173,
+					"parameters": {
+						"object": "Manzana9",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Manzana9",
+					"sid": 247605511837007
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Manzana10",
+					"sid": 297157285068634,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 948913417158913
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "ControlTáctil",
+					"sid": 425054735603431,
+					"parameters": {
+						"object": "Manzana10",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Manzana10",
+					"sid": 871250524038811
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Manzana11",
+					"sid": 478572430404776,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 814850475478303
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "ControlTáctil",
+					"sid": 697122361209881,
+					"parameters": {
+						"object": "Manzana11",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Manzana11",
+					"sid": 943040470517379
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Manzana12",
+					"sid": 132048928162844,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 912058276680160
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "ControlTáctil",
+					"sid": 842300654663703,
+					"parameters": {
+						"object": "Manzana12",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Manzana12",
+					"sid": 340424917000662
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Manzana13",
+					"sid": 763971689977738,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 168714652795146
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "ControlTáctil",
+					"sid": 636700554022689,
+					"parameters": {
+						"object": "Manzana13",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Manzana13",
+					"sid": 490293733613868
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Manzana14",
+					"sid": 206213423170930,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 109896484796415
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "ControlTáctil",
+					"sid": 218364410275377,
+					"parameters": {
+						"object": "Manzana14",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Manzana14",
+					"sid": 311093275982515
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Manzana15",
+					"sid": 566416017872455,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 808221015634326
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "ControlTáctil",
+					"sid": 408394363500092,
+					"parameters": {
+						"object": "Manzana15",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Manzana15",
+					"sid": 508534966205042
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto6",
+					"sid": 776817317419164,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "botonfinpartidas",
+					"sid": 968039309567035,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 702211041563642
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "botonfinpartidas",
+					"sid": 612693642155918
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 558842685443537,
+					"parameters": {
+						"layout": "Feinz"
+					}
+				}
+			],
+			"sid": 736131110377186
+		}
+	],
+	"sid": 602901542746455
+}
